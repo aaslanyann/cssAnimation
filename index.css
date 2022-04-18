@@ -1,0 +1,25 @@
+.spinner {
+    width: 300px;
+    height: 300px;
+}
+
+.spinner.active {
+    animation: spinner 5s linear infinite alternate;
+}
+
+@keyframes spinner {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(3600deg)}
+}
+
+.block {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.center {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: 643px;
+}
